@@ -25,10 +25,36 @@ let myObj={
 }
 
 const myFunction=function(){
-    console.log("hello there")
+    // console.log("hello there")
 }
 
-console.log(typeof bigNumber)
-console.log(typeof outsideTemp)
-console.log(typeof myFunction)
+// console.log(typeof bigNumber)
+// console.log(typeof outsideTemp)
+// console.log(typeof myFunction)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack(Primitive),Heap(Non-Primitive)
+
+let myYoutubeName="ShikhaSingh"
+let anotherName=myYoutubeName
+anotherName="SnehalSingh"
+console.log(myYoutubeName);
+console.log(anotherName);
+
+let userOne={
+    email:"user@gmail.com",
+    upi:"user@ybl"
+}
+
+let userTwo=userOne;
+userTwo.email="123@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
 
